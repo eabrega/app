@@ -19,7 +19,7 @@ export default class HelloWorld extends Vue {
     @Prop() private msg!: string;
 
     play(){
-        const audio = new Audio("../media/00225.mp3")
+        const audio = new Audio("./media/00225.mp3")
         audio.play()
         console.log("Игого")
     }

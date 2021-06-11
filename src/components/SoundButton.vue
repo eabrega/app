@@ -16,12 +16,10 @@ export default class SoundButton extends Vue {
     play() {
         const audio = new Audio(`./media/${this.fileName}.mp3`);
         audio.play();
-        console.log("Игого");
     }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .board {
     button {
